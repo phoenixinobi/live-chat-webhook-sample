@@ -10,13 +10,13 @@ namespace LiveChatWebhookSample.Models
     public class Ticket
     {
         [JsonProperty("assignee")]
-        public object Assignee { get; set; }
+        public Assignee Assignee { get; set; }
 
         [JsonProperty("events")]
         public object[] Events { get; set; }
 
         [JsonProperty("groups")]
-        public object[] Groups { get; set; }
+        public Group[] Groups { get; set; }
 
         [JsonProperty("status")]
         public string Status { get; set; }
@@ -28,6 +28,6 @@ namespace LiveChatWebhookSample.Models
         public string[] Tags { get; set; }
 
         [JsonProperty("source")]
-        public object Source { get; set; }
+        public Source Source { get; set; }
     }
 }
