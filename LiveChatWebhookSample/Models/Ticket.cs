@@ -13,7 +13,7 @@ namespace LiveChatWebhookSample.Models
         public Assignee Assignee { get; set; }
 
         [JsonProperty("events")]
-        public object[] Events { get; set; }
+        public Event[] Events { get; set; }
 
         [JsonProperty("groups")]
         public Group[] Groups { get; set; }
