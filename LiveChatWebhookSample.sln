@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveChatWebhookSample", "LiveChatWebhookSample\LiveChatWebhookSample.csproj", "{B13CF8D0-8B25-4B02-8AC5-A313EE6E51CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiveChatWebhookSample.Lib", "LiveChatWebhookSample.Lib\LiveChatWebhookSample.Lib.csproj", "{F6E7A9D7-F662-4830-8EE4-E3ADD9B27114}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B13CF8D0-8B25-4B02-8AC5-A313EE6E51CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B13CF8D0-8B25-4B02-8AC5-A313EE6E51CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B13CF8D0-8B25-4B02-8AC5-A313EE6E51CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E7A9D7-F662-4830-8EE4-E3ADD9B27114}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E7A9D7-F662-4830-8EE4-E3ADD9B27114}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E7A9D7-F662-4830-8EE4-E3ADD9B27114}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E7A9D7-F662-4830-8EE4-E3ADD9B27114}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

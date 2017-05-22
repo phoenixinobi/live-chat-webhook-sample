@@ -1,6 +1,7 @@
 ﻿
 namespace LiveChatWebhookSample.Controllers
 {
+    using LiveChatWebhookSample.Lib;
     using LiveChatWebhookSample.Models;
     using Microsoft.AspNetCore.Http;
     using Microsoft.AspNetCore.Mvc;
@@ -12,6 +13,7 @@ namespace LiveChatWebhookSample.Controllers
         [HttpPost("/ChatStarts/")]
         public ActionResult ChatStarts([FromBody]Webhook value)
         {
+            Class1 classtest = new Class1();
             return Ok();
         }
 
